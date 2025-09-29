@@ -1,3 +1,44 @@
+<!-- 
+<h1></h1> eh o titulo no código <body></body>
+(tambem pode se usar h2, h3, h4, h5 e h6 para titulo).
+<p></p> define um paragrafo inteiro.
+<br> define uma quebra de linha.
+Esses elementos ficam so dentro da tag <body></body>, pois o <head></head> serve
+para titulos.
+<em></em> Da enfase no texto, deixando-o em italico.
+<strong></strong> Deixa o texto em negrito
+<ul></ul> Comeca uma lista com marcadores
+<li></li> Marca o item (lista e item respectivamente)
+<ol></ol> Eh para uma lista numerada
+<img> Serve para colocar uma imagem. Voce so pode pegar imagens da internet. Se
+voce tiver a imagem so em seu computador, voce nao poderá inseri-la. Por isso no
+codigo abaixo, o img vem com src (source)
+Caso a imagem nao renderize, use alt, para um texto alternativo.
+Para redimensionar a imagem, use width e height
+
+Agora vamos ao CSS
+<style></style> Muda o estilo da página
+color muda a cor
+background-color muda a cor do plano de fundo.
+Você precisa especificar onde vai mudar, se é em todos os h1 ou em só um deles
+por exemplo. Para modificar só um item, utilize id. Para isso, vá na tag que de
+seja mudar e dê um espaço e coloque id=""
+A partir disso, vá em style e coloque um # na linha em que você deseja alterar.
+O # indica pro leitor web, que tudo a partir disso, é um id.
+Sempre use ids descritivos e únicos para a página não confundir
+Seleção de classe: use class="". Depois vá em style e use .(nome da classe)
+Padding define até onde vai a cor de fundo dos itens com background-color.
+background-image: url(link); muda a imagem no fundo da página
+background-repeat: define quantas vezes a imagem se repete.
+background-position: define a posição da imagem de fundo
+background-size: define o tamanho da imagem
+border: cria uma borda para as coisas com n°px;, por exemplo:
+border: 5px solid black;
+Isso define o tamanho da borda, o tipo da borda e a cor da borda, respectivamente.
+text-alig define o alinhamento do texto
+<div></div> define uma parte dividida do código para melhor alterações futuras.
+border-color define a cor da borda.
+-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +47,7 @@
         <style>
             
             body {
-                font-family: FreeMono, monospace;
+                font-family: serif;
                 font-size: 15px;
                 background-color: lightgreen;
                 background-image: url(https://cdn.mos.cms.futurecdn.net/FRdq8ZbPetwNDRV9R3hYpP-970-80.jpg.webp);
@@ -174,29 +215,46 @@
         
         <p>
             Eu estou fazendo HTML porque achei legal fazer páginas web. É só por isso<br>
-            mesmo. Por sinal, achei fácil, Tim Berners-Lee! Valeu!
-        </p>
-        
-        <img id="thumb-up"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jempol_Ngadep_Atas_%28cropped%29.jpg/250px-Jempol_Ngadep_Atas_%28cropped%29.jpg"
-        alt="Thumbs up, alright?"
-        width="150">
-        
-        <h2>Sobre esta Página</h2>
-        
-        <p>
-            Criada em 18/09/2025, por Alessandro D. P. da Silva. Estudando programação<br>
-            queria fazer um site para que todos pudessem ver o que ele fazia. Assim, surgiu<br>
-            este site (que não é web ainda).<br>
-            "Um dia, irei fazer um site onde poderei me expressar. É isso. Agora eu quero<br>
-            ir embora. Flw!"<br><br>
-                    -Alessandro D. P. da Silva (19/09/2025).
+            mesmo. Por sinal, achei fácil, Tim Berners-Lee! Valeu!<br>
         </p>
         
         <img src="https://shortpixel.com/blog/wp-content/uploads/2023/12/nyan-cat.gif"
         alt="Cookie Cat in the space with a Rainbow Tail behind him"
-        width="500"
-        height="150">
+        width="500">
+        
+        <button onclick="imhere.html">Clique aqui para ir a segunda página:</button>
         
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
